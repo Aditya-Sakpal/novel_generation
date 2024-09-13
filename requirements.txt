@@ -1,0 +1,8 @@
+openai
+deepgram-sdk
+semantic-text-splitter==0.14.1
+llama-index-core 
+llama-parse 
+llama-index-readers-file
+convertapi==1.8.0
+PyPDF2
