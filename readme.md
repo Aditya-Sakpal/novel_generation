@@ -26,11 +26,11 @@ python auto_training.py
 
 This file generates jsonl file for training and fine tunes open ai model. 
 
-Inputs : 
+#### Inputs : 
 
 novel_path 
 
-Outputs : 
+#### Outputs : 
 
 fine tuned model name 
 
@@ -48,7 +48,7 @@ python auto_para_generation.py
 
 This file generates the next paragraph and updates the given summary . 
 
-Inputs : 
+#### Inputs : 
 
 fine_tuned_model_name 
 
@@ -58,7 +58,7 @@ initial_paragraph
 
 summary_so_far
 
-Output : 
+#### Output : 
 
 Updated Summary 
 
