@@ -3,10 +3,10 @@
 
 ## Steps for installation 
 
-1.) Create virtual environment
+1.) Create virtual environment and activate it
 
 ```
-python -m venv venv
+python -m venv venv && venv\Scripts\activate
 ```
 
 2.) Install Dependencies 
@@ -15,10 +15,12 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-3.)Add open ai api key in both the scripts 
+3.)Create three folders in the root directory named : temp , training_data and testing_data
+
+4.)Add open ai api key in both the scripts 
 
 
-4.) Run auto_training.py
+5.) Run auto_training.py
 
 ```
 python automate_training.py
@@ -39,9 +41,9 @@ summary of the first half
 last paragraph on which the model was trained on .
 
 
-5.)Retrieve the name of the fine tuned model either from the generated txt file or the terminal
+6.)Retrieve the name of the fine tuned model either from the generated txt file or the terminal
 
-6.) Run auto_para_generation.py
+7.) Run auto_para_generation.py
 ```
 python auto_para_generation.py
 ```
